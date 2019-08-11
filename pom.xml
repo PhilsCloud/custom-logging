@@ -6,37 +6,36 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.tms</groupId>
     <artifactId>custom-logging</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>mule-extension</packaging>
     <name>Custom-logging Extension</name>
 
     <parent>
         <groupId>org.mule.extensions</groupId>
         <artifactId>mule-modules-parent</artifactId>
-        <version>1.1.1</version>
+        <version>1.1.2</version>
     </parent>
 
     <properties>
- 		<jackson-2-version>2.9.8</jackson-2-version>
+ 		   <jackson-2-version>[2.9.9,)</jackson-2-version>
    	</properties>
 
     <dependencies>
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-core</artifactId>
-			<version>${jackson-2-version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-annotations</artifactId>
-			<version>${jackson-2-version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
-			<version>${jackson-2-version}</version>
-		</dependency>
+  		<dependency>
+  			<groupId>com.fasterxml.jackson.core</groupId>
+  			<artifactId>jackson-core</artifactId>
+  			<version>${jackson-2-version}</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>com.fasterxml.jackson.core</groupId>
+  			<artifactId>jackson-annotations</artifactId>
+  			<version>${jackson-2-version}</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>com.fasterxml.jackson.core</groupId>
+  			<artifactId>jackson-databind</artifactId>
+  			<version>${jackson-2-version}</version>
+  		</dependency>
     </dependencies>
-
 
 </project>

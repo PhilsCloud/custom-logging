@@ -138,12 +138,12 @@ The example log response would be along the lines of:
 ## Using this component
 
 Download, run 'mvn clean install' then add this dependency to your application pom.xml:
- 
+
 ```
 <dependency>
   <groupId>com.tms</groupId>
 	<artifactId>custom-logging</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
   <classifier>mule-plugin</classifier>
 </dependency>
 ```
